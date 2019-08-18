@@ -46,14 +46,6 @@ int main()
 			else f[i][j]=min(fx,fy)+count(i,j);
 		}
 	}
-//	for(i=1;i<=x;i++)
-//	{
-//		for(j=1;j<=y;j++)
-//		{
-//			cout<<f[i][j]<<" ";
-//		}
-//		cout<<endl;
-//	}
 	cout<<n-f[x][y]<<endl;
 	return 0;
 }
